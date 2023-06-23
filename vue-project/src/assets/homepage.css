@@ -1,0 +1,328 @@
+.header{
+    width: 1440px;
+    height: 124px;
+    background: #828B8B;
+}
+
+.h1{
+    position: absolute;
+    width: 205px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4A99D3;
+    margin-left: 70px;
+}
+
+body{   
+    margin: auto;
+    width: 1440px;
+    height: 2924px;
+
+}
+
+/* top */
+.main{
+    display: flex;
+    width: 1440px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.main .wrapper-top{
+    width: 1297px;
+    height: 364.78px;
+    background: #EAF6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .wrapper-top .top{
+    /* justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 150px;
+
+}
+
+.main .wrapper-top .top h2{
+    width: 403px;
+    height: 86px;
+    margin-left: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px #14FFF1;
+}
+
+form.search {
+    border: none;
+    padding: 0;
+}
+
+.search{
+    width: 575px;
+    height: 69px;
+    border: 2px solid #FC0B0D;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #004B84;
+    padding: 9px 4px 9px 50px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 25px center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.search::-webkit-input-placeholder {
+    color: #004B84;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.search::placeholder{
+    color: #004B84;
+    font-size: 16px;
+    font-family: Inter;
+}
+.search:-ms-input-placeholder {
+   color: #004B84;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+
+/* used and service */
+.serve{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 50px;
+}
+
+.serve1{
+    border-radius: 10px;
+    width: 626px;
+    height: 303px;
+    display: flex;
+    background: #EAF6FF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+  
+}
+
+.usedandnew{
+    margin-left: 60px;
+    width: 230px;
+    height: 111px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 300;
+    align-content: space-between;
+    
+}
+
+.usedandnew button{
+    margin-left: 25px;
+    display: inline-flex;
+    padding: 13px 22px 13px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #59E7F0;
+
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.usedandnew h3{
+    margin-left: 20px;
+}
+.usedandnew p{
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #4997A1;
+}
+
+.serve1 img{
+    margin-block-start: 35px;
+    margin-left: 60px;
+}
+
+.serve2{
+    border-radius: 10px;
+    width: 626px;
+    height: 303px;
+    display: flex;
+    background: #EAF6FF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.service{
+    margin-left: 60px;
+    width: 307px;
+    height: 111px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 300;
+    align-content: space-between;
+    
+}
+
+.service button{
+    margin-left: 25px;
+    display: inline-flex;
+    padding: 13px 22px 13px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #59E7F0;
+
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.service h3{
+    margin-left: 20px;
+}
+.service p{
+    color: #000;
+    font-size: 21px;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.serve2 img{
+    margin-block-start: 50px;
+    margin-left: 15px;
+}
+
+/* .serve2{
+    border-radius: 10px;
+    width: 626px;
+height: 303px;
+    display: flex;
+    background: #EAF6FF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+}
+
+.serve2 p {
+    width: 307px;
+    height: 124px;
+} */
+
+/* product */
+
+.main .products {
+    /* width: 1200px; */
+    background: gray;
+    height: 1150px;
+    /* max-width: 1200px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-bottom: 50px;
+
+    
+}
+
+.main .products .product {
+    width: 290px;
+    /*padding: 20px;
+    */background: white;
+    max-width: 290px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+.products::-webkit-scrollbar{
+    display: none;
+}
+
+.main .product .product-image {
+    width: 260px;
+    height: 265px;
+    background: url("https://cdn-images.article.com/products/SKU379A/2890x1500/image81730.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .more-products {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+/* .main .more-products button {
+    height: 40px;
+    padding: 0 20px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid red;
+    outline: none;
+    font-family: system-ui;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+} */
+
+
+/* footer */
+
+.footer{
+    width: 1440px;
+    height: 404px;
+    background: #EAF6FF;
+}
