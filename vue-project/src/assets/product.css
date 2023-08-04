@@ -1,0 +1,228 @@
+.header{
+    width: 1440px;
+    height: 124px;
+    background: #828B8B;
+    display: flex;
+}
+
+.header .h1{
+    margin-block-start: 25px;
+    position: absolute;
+    width: 205px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4A99D3;
+    margin-left: 70px;
+}
+
+
+.header .logout svg{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 1200px;
+    
+}
+
+.header p{
+    color: #0F001A;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 43px;
+    width: 88px;
+}
+
+body{   
+    margin: auto;
+    width: 1440px;
+    height: 1000px;
+
+}
+
+/* class main */
+
+.main{
+    display: flex;
+    width: 1440px;
+    background-color: gray;
+}
+
+.product-image{
+    width: 300px;
+}
+
+.main .wrapper{
+    width: 1440px;
+    height: 1350px;
+    background-color: #606060;
+}
+
+.main .wrapper .wrapper-top{
+    width: 1297px;
+    height: 364.781px;
+    background: #EAF6FF;
+    margin: auto;
+    margin-block-start: 20px;
+}
+
+.main .wrapper-top .top{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 150px;
+    margin-inline-start: 50px;
+
+}
+
+.main .wrapper-top .top .image{
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 452px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.main .wrapper-top .top h2{
+    margin-block-start: 70px;
+    width: 403px;
+    height: 86px;
+    margin-left: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px #14FFF1;
+}
+
+form.search {
+    border: none;
+    padding: 0;
+}
+
+.search{
+    width: 575px;
+    height: 69px;
+    border: 2px solid #FC0B0D;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #004B84;
+    padding: 9px 4px 9px 50px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 25px center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.search::-webkit-input-placeholder {
+    color: #004B84;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.search::placeholder{
+    color: #004B84;
+    font-size: 16px;
+    font-family: Inter;
+}
+.search:-ms-input-placeholder {
+   color: #004B84;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.main .wrapper .wrapper-bottom{
+    width: 1300px;
+    height: 800px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #EAF6FF;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* product */
+
+.product{
+    display: flex;
+    /* justify-content: space-between;
+    align-content: space-between; */
+    grid-auto-flow: column;
+    grid-column-gap: 60px;
+    height: 800px;
+}
+
+.product .product-image{
+    width: 580px;
+    height: 470px;
+    flex-shrink: 0;
+    margin-top: 70px;
+    margin-left: 30px;
+    
+}
+
+.product .product-detail{
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.product .product-detail h2{
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product .product-detail #price{
+    color: #F00;
+    font-family: Manrope;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product .product-detail #description{
+    color: #000;
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 177.994%;
+    letter-spacing: 0.24px;
+}
+
+
+/* order */
+
+.order{
+    width: 300px;
+}
+
+.order button{
+    background-color: #606060;
+    color: #EAF6FF;
+    width: 80px;
+    height: 40px;
+    border-radius:10%;
+    -webkit-border-radius:20%;
+    -moz-border-radius:20%;
+    -ms-border-radius:20%;
+    -o-border-radius:20%;
+}

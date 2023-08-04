@@ -1,0 +1,89 @@
+.header{
+    width: 1440px;
+    height: 124px;
+    background: #828B8B;
+}
+
+.header .h1{
+    position: absolute;
+    width: 205px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4A99D3;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+body{
+    width: 1440px;
+    height: 1112px;
+    background-color: #606060;
+    margin: auto;
+}
+.wrapper{
+    width: 1189px;
+    height: 885px;
+    background: #EAF6FF;
+    margin: auto;
+    margin-block-start: 50px;
+    display: flex;
+}
+
+.wrapper .input{
+    display: flex;
+}
+
+.for-image{
+    height: 500px;
+    width: 500px;
+}
+
+.for-input{
+    width: 200px;
+    gap: 50px;
+    padding: 10px 10px;
+    flex-direction: row;
+    margin-top: 60px;
+   
+}
+
+form {
+  gap: 30px;
+  max-width: 100px;
+  margin-left: 200px;
+  flex-direction: column;
+}
+
+form input {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #EAF6FF;
+}
+
+form button {
+  border-radius: 20px;
+  background: #1b1a1a;
+  border: none;
+  color: #fff;
+  width: 155px;
+    height: 65px;
+    flex-shrink: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.wrapper .input #image{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
