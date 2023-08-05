@@ -1,7 +1,9 @@
 <template>
     <body>
-        <header class="header">
+        <header>
+            <section class="header">
                 <h1 class="h1">Blazer-Eco</h1>
+            </section>
         </header>
         <main>
             <section class="wrapper">

@@ -1,0 +1,292 @@
+.header{
+    width: 1440px;
+    height: 124px;
+    background: #828B8B;
+}
+
+.header .h1{
+    position: absolute;
+    width: 205px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4A99D3;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+body{   
+    margin: auto;
+    width: 1440px;
+    height: 2924px;
+}
+
+.main{
+    max-width: 1440px;
+    height: 820px;
+    background-color: #EAF6FF;
+}
+
+.login{
+    display: flex;
+}
+
+.login-form{
+    width: 505px;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.btn{
+    display: flex;
+}
+
+
+.btn #signup{
+    width: 239px;
+    height: 52px;
+    border: none;
+    
+}
+
+.btn #signin{
+    width: 239px;
+    height: 52px;
+    border: none;
+    
+}
+
+.btn #signup:hover{
+    background: #6e7679;
+}
+
+.btn #signin:hover{
+    background: #6e7679;
+}
+
+
+.btn button.active{
+    background: #417388;
+   
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 480px;
+  margin:auto;
+}
+
+form input {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #EAF6FF;
+  outline: none;
+}
+
+form button {
+  border-radius: 20px;
+  background: #FC0B0D;
+  border: none;
+  color: #fff;
+  width: 435px;
+    height: 65px;
+    flex-shrink: 0;
+  margin-top: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.h3{
+    color: #000;
+    font-size: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.65px;
+}
+
+.g-login{
+    border-radius: 20px;
+    background: #EAF6FF;
+    color: #FC0B0D;
+    width: 435px;
+    height: 65px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #8D8D8D;
+    margin-left: 43px;
+}
+
+.g-login span{
+    color: #FC0B0D;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+
+/* footer */
+
+.footer{
+    width: 1440px;
+    background: #EAF6FF;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+
+.online-shop{
+    margin-top: 50px;
+    display: flex;
+    width: 804px;
+    /* height: 58px; */
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #2F2F2F;
+    font-size: 48px;
+    padding: 0 60px;
+   
+}
+
+.online-shop h1{
+    text-shadow: 3px 3px 2px #45f6ec;
+}
+
+.footer .online-shop article h1 {
+    line-height: 0;
+}
+
+.blaze-eco{
+    display: flex;
+}
+
+.contain-blaze-eco {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.blaze-eco p{
+    display: flex;
+    width: 161px;
+    height: 37px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 27px;
+    margin-inline-start: 15px;
+}
+
+.contact{
+    width: 350px;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact h2{
+    width: 140px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+    margin-block-start: 50px;
+    line-height: 15px;
+}
+
+.contact .phone{
+    display: flex;
+    margin-block-start: 35px;
+}
+.contact .phone #p1{
+    width: 40px;
+    font-size: 30px;
+    margin-block-start: 3px;
+    line-height: 10px;
+}
+
+.contact .phone #p2{
+    margin-block-start: 5px;
+    font-size: 20px;
+    margin-inline-start: 15px;
+    /* line-height: 10px; */
+}
+
+.contact .gmail{
+    display: flex;
+    
+}
+
+.contact .gmail #p1{
+    width: 40px;
+    color: #000;
+    font-size: 30px;
+    line-height: 10px;
+    margin-block-start: 5px;
+}
+
+.contact .gmail #p2{
+    /* line-height: 10px; */
+    margin-block-start: 5px;
+    font-size: 20px;
+    margin-inline-start: 15px;
+}
+
+.contact .location {
+    display: flex;
+}
+
+.contact .location #p1{
+    width: 40px;
+    color: #000;
+    font-size: 30px;
+    line-height: 10px;
+    margin-block-start: 5px;
+}
+
+.contact .location #p2{
+    /* line-height: 10px; */
+    margin-block-start: 5px;
+    font-size: 20px;
+    margin-inline-start: 15px;
+}
+
+.about{
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about h2{
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+    margin-block-start: 50px;
+    line-height: 15px;
+    margin-block-end: 40px;
+}
+.about #p1{
+    margin-block-start: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.about #p2{
+     margin-block-start: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+

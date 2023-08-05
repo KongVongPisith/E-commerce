@@ -3,7 +3,7 @@
         <header class="header">
                 <article><h1 class="h1">Blazer-Eco</h1></article>
                 <article class="logout">
-                    <router-link id="out" to="/" @click="logout"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="out" height="50" width="90">
+                    <router-link to="/" @click="logout"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="out" height="50" width="90">
                             <g> <path fill="none" d="M0 0h24v24H0z" id="mainIconPathAttribute"></path> <path d="M5 22a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v3h-2V4H6v16h12v-2h2v3a1 1 0 0 1-1 1H5zm13-6v-3h-7v-2h7V8l5 4-5 4z" id="mainIconPathAttribute"></path> </g></svg> 
                     </router-link>
                 
